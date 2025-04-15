@@ -1,5 +1,6 @@
 def slice_advanced():
     # Código a implementar utilizando input.
-
-# Para verificar este ejercicio ejecutar el comando
-# `pytest tp3_slice_advanced_test.py` o `python tp3_slice_advanced_test.py`
+    texto = input("Ingrese un texto:\n")
+    
+    resultado = texto[4::2]  # Desde el índice 4 hasta el final, saltando de a 2
+    print(resultado)
